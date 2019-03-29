@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anvipuri.trail.Activity_4">
+
+    <TextView
+        android:id="@+id/noofdays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Choose no of days:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        tools:targetApi="ice_cream_sandwich"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/noofdays"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/showplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="gotonextpage"
+        android:text="SHOW PLAN!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        tools:targetApi="ice_cream_sandwich"
+        android:layout_below="@+id/days"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="gototravelinfo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:text="BACK"
+        tools:targetApi="ice_cream_sandwich"
+        android:layout_above="@+id/scrollplanner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:id="@+id/scrollplanner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/showplan"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SUGGESTED PLANNER:"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                tools:targetApi="ice_cream_sandwich" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.widget.RelativeLayout>

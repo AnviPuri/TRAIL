@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TRAIL</string>
+    <string name="action_settings">Settings</string>
+    <string name="worried_about_how_far_your_destination_is_clueless_about_how_to_get_there_with_a_limited_budget_curious_about_the_places_to_visit_then_this_is_just_the_right_app_for_you_all_the_information_is_just_a_few_clicks_away_be_it_the_modes_of_transportation_the_respective_fares_or_the_places_to_visit_in_and_around_your_entered_destination_you_will_get_all_that_you_need_here">Worried about how far your destination is?Clueless about how to get there with a limited budget?Curious about the places to visit? Then this is just the right app for you. All the information is just a few clicks away. Be it the modes of transportation, the respective fares or the places to visit in and around your entered destination, you will get all that you need here.</string>
+    <string name="next">NEXT</string>
+    <string name="where_are_you_located">Where are you located?</string>
+    <string name="where_would_you_wish_to_go">Where would you wish to go?</string>
+    <string name="home">HOME</string>
+    <string name="next2">NEXT</string>
+    <string name="back">Back</string>
+
+</resources>
